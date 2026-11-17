@@ -1,0 +1,20 @@
+{
+  "name": "forever-mod-studio",
+  "version": "1.0.0",
+  "description": "Standalone test space for WoW: Forever addons (simulated UI engine).",
+  "main": "main.cjs",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "server": "node server.cjs",
+    "smoke": "node smoke.cjs",
+    "interact": "node interact.cjs"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fengari": "^0.1.4"
+  },
+  "devDependencies": {
+    "electron": "^45.3.2"
+  }
+}

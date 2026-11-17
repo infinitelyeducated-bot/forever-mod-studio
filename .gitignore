@@ -1,0 +1,5 @@
+node_modules/
+state/
+exports/
+config.json
+*.log
